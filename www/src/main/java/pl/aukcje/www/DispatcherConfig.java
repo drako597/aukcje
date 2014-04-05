@@ -37,7 +37,7 @@ public class DispatcherConfig extends WebMvcConfigurerAdapter {
     @Bean
     org.springframework.web.servlet.view.tiles3.TilesConfigurer tilesConfigurer() {
         TilesConfigurer tilesConfigurer = new TilesConfigurer();
-        tilesConfigurer.setDefinitions("/WEB-INF/tiles/tiles-definitions.xml");
+        tilesConfigurer.setDefinitions("/WEB-INF/titles/tiles-definitions.xml");
         return tilesConfigurer;
     }
 
